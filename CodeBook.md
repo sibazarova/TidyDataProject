@@ -5,6 +5,7 @@ Getting and Cleaning Data -- The Course Project Codebook
 The course project tidy data set contains the average of each required variable (mean and standard deviation values of the signal measurements) for each physical activity and each study participant. More on the study design and measurements collected, please see Parts 2 and 3 of this document.
 
 1  - "activity" - one of six physical activities during which data were collected:   
+
         "walking"    
 	"walking upstairs"    
 	"walking downstairs"    
