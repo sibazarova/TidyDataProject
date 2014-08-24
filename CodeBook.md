@@ -4,13 +4,13 @@ Getting and Cleaning Data -- The Course Project Codebook
 ### PART 1: VARIABLES. 
 The course project tidy data set contains the average of each required variable (mean and standard deviation values of the signal measurements) for each physical activity and each study participant. More on the study design and measurements collected, please see Parts 2 and 3 of this document.
 
-1  - "activity" - one of six physical activities during which data were collected:
-  "walking"
-	"walking upstairs"
-	"walking downstairs"
-	"sitting"
-	"standing"
-	"laying"
+1  - "activity" - one of six physical activities during which data were collected:   
+        "walking"    
+	"walking upstairs"    
+	"walking downstairs"    
+	"sitting"    
+	"standing"    
+	"laying"    
 
 2  - "subjectid" - an identification number for each study participant. These numbers were from 1 to 30.
 
@@ -22,8 +22,8 @@ These signal measurements are described in PART 3 of this document.
 5  - "averageOf_tBodyAcc-mean()-Z"  
 6  - "averageOf_tBodyAcc-std()-X"  
 7  - "averageOf_tBodyAcc-std()-Y"  
-8  - "averageOf_tBodyAcc-std()-Z" 
-9  - "averageOf_tGravityAcc-mean()-X"  
+8  - "averageOf_tBodyAcc-std()-Z"   
+9  - "averageOf_tGravityAcc-mean()-X"    
 10 - "averageOf_tGravityAcc-mean()-Y"       
 11 - "averageOf_tGravityAcc-mean()-Z"  
 12 - "averageOf_tGravityAcc-std()-X"  
