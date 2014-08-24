@@ -1,7 +1,8 @@
 Getting and Cleaning Data -- The Course Project Codebook
 ========================================================
 
-PART 1: VARIABLES. The course project tidy data set contains the average of each required variable (mean and standard deviation values of the signal measurements) for each physical activity and each study participant. More on the study design and measurements collected, please see Parts 2 and 3 of this document.
+### PART 1: VARIABLES. 
+The course project tidy data set contains the average of each required variable (mean and standard deviation values of the signal measurements) for each physical activity and each study participant. More on the study design and measurements collected, please see Parts 2 and 3 of this document.
 
 1  - "activity" - one of six physical activities during which data were collected:
   "walking"
@@ -13,7 +14,7 @@ PART 1: VARIABLES. The course project tidy data set contains the average of each
 
 2  - "subjectid" - an identification number for each study participant. These numbers were from 1 to 30.
 
-VARIABLES 3-68 are the average values for the mean and standard deviation of the signal measurements.
+VARIABLES from 3 to 68 are the average values for the mean and standard deviation of the signal measurements.
 These signal measurements are described in PART 3 of this document.
                          
 3  - "averageOf_tBodyAcc-mean()-X"
@@ -83,11 +84,8 @@ These signal measurements are described in PART 3 of this document.
 67 - "averageOf_fBodyBodyGyroJerkMag-mean()" 
 68 - "averageOf_fBodyBodyGyroJerkMag-std()" 
 
-________________________________________________________________________
-________________________________________________________________________
 
-
-PART 2. Briefly about the study design (from the Readme.txt file):
+### PART 2. Briefly about the study design (from the Readme.txt file):
 
 Researchers Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto from Università degli Studi di Genova, Genoa, Italy conducted a study on Human Activity Recognition Using Smartphones. 
 
@@ -95,10 +93,9 @@ Researchers Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto fr
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain."
 
-________________________________________________________________________
-________________________________________________________________________
 
-PART 3. As part of the course project, the tidy data is generated using only extractions of the mean - "mean()" and standard deviation - "std()" of the signal measurements. Information on the feature vectors (from the "features_info.txt" file):
+### PART 3. DESCRIPTION OF FEATURE VECTORS.
+As part of the course project, the tidy data is generated using only extractions of the mean - "mean()" and standard deviation - "std()" of the signal measurements. Information on the feature vectors (from the "features_info.txt" file):
 
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
