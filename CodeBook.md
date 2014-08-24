@@ -6,7 +6,7 @@ The course project tidy data set contains the average of each required variable 
 
 1  - "activity" - one of six physical activities during which data were collected:   
 
-        "walking"    
+	"walking"    
 	"walking upstairs"    
 	"walking downstairs"    
 	"sitting"    
